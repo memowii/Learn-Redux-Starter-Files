@@ -31,7 +31,7 @@ const Comments = React.createClass({
   },
   render() {
     return (
-      <div className="comment">
+      <div className="comments">
         {this.props.postComments.map(this.renderComment)}
         <form
           ref="commentForm"
